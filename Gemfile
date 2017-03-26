@@ -4,6 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'will_paginate', '3.0.7'
@@ -45,7 +49,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 
-
+gem 'thor', '0.19.1'
 
 
 group :development do
